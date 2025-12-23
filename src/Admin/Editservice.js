@@ -210,7 +210,7 @@ function Editservice() {
                         name="category"
                         onChange={onchange}
                         value={selectedService.category}
-                        placeholder="Your Name"
+                        placeholder="Services Name"
                       />
                     </div>
                     <br />

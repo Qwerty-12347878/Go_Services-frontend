@@ -134,7 +134,7 @@ function Services() {
               name="category"
               onChange={onchange}
               value={services.category}
-              placeholder="Your Name"
+              placeholder="Services Name"
             />
           </div>
           <br />
@@ -149,7 +149,7 @@ function Services() {
               minLength={5}
               required
               value={services.information}
-              placeholder="Your Email"
+              placeholder="Information"
             />
           </div>
           <br />
