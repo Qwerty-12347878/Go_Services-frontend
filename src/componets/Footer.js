@@ -11,7 +11,7 @@ function Footer() {
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6">
-              <h1 className="text-white mb-3 text-center d-flex align-items-center">
+              <h1 className="text-white mb-3 text-left d-flex align-items-center">
                 <i
                   className="fa fa-gear fa-spin"
                   style={{ fontSize: "50px", color: "#FDA12B" }}
@@ -55,11 +55,11 @@ function Footer() {
               <h4 className="text-light mb-4">Address</h4>
               <p>
                 <i className="fas fa-map me-3" />
-                395008 Surat, Gujrat, INDIA
+                395010 Surat, Gujarat, INDIA
               </p>
               <p>
                 <i className="fas fa-phone me-3" />
-                +91 98345 67890
+                +91 90543 51477
               </p>
               <p>
                 <i className="fa fa-envelope me-3" />
@@ -109,10 +109,10 @@ function Footer() {
         <div className="container-fluid copyright">
           <div className="container">
             <div className="row">
-              <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                © <a href="/">GO Services</a>, All Right Reserved.
+              <div className="col-md-6 text-center text-md-start mb-3 mb-md-0" style={{color: "sandybrown"}}>
+                © <a href="/">GO Services ,</a> All Right Reserved.
               </div>
-              <div className="col-md-6 text-center text-md-end">
+              <div className="col-md-6 text-center text-md-end" style={{color: "sandybrown"}}>
                 Designed By <a href="/">GO service</a>
               </div>
             </div>

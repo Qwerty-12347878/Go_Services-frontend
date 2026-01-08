@@ -5,11 +5,11 @@ function Sidebarworker() {
 
     const { pathname } = useLocation();
 
-  return (
-    <>
-       {/* ======= Sidebar ======= */}
-       <aside id="sidebar" className="sidebar">
-                <ul className="sidebar-nav" id="sidebar-nav">
+    return (
+        <>
+            {/* ======= Sidebar ======= */}
+            <aside id="sidebar" className="sidebar">
+                      <ul className="sidebar-nav" id="sidebar-nav">
                     <Link
                         to="/Workeradmin"
                         className={`nav-item nav-link ${pathname === "/Workeradmin" ? "active" : ""
@@ -26,9 +26,9 @@ function Sidebarworker() {
                     </Link>
 
                 </ul>
-            </aside>{/* End Sidebar*/}  
-    </>
-  )
+            </aside>{/* End Sidebar*/}
+        </>
+    )
 }
 
 export default Sidebarworker

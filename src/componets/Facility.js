@@ -107,7 +107,6 @@ function Facility() {
                           className="img-fluid"
                           alt="Background"
                           style={{
-                            marginLeft: "150px",
                             height: "500px",
                             marginTop: "-140px",
                           }}

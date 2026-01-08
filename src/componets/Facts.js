@@ -1,4 +1,5 @@
 import React from 'react'
+import './Facts.css'
 
 function Facts() {
     return (
@@ -10,7 +11,7 @@ function Facts() {
                             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div className="position-relative overflow-hidden ps-5 pt-5 h-100" style={{ minHeight: 400 }}>
                                     <img className="position-absolute w-100 h-100" src="img/about.jpg" alt="" style={{ objectFit: 'cover' }} />
-                                    <div className="position-absolute top-0 start-0 bg-white pe-3 pb-3" style={{ width: 200, height: 200 }}>
+                                    <div className="position-absolute top-0 start-0 bg-white pe-3 pb-3 year-badge" style={{ width: 200, height: 200 }}>
                                         <div className="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3">
                                             <h1 className="text-white">25</h1>
                                             <h2 className="text-white">Years</h2>
@@ -57,7 +58,7 @@ function Facts() {
                                     <h1 className="display-1">01</h1>
                                     <h4 className="text-white mb-3">Construction</h4>
                                     <p className="text-white">Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit clita duo justo erat amet</p>
-                    
+
                                 </div>
                             </div>
                         </div>
@@ -68,7 +69,7 @@ function Facts() {
                                     <h1 className="display-1">02</h1>
                                     <h4 className="text-white mb-3">Mechanical</h4>
                                     <p className="text-white">Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit clita duo justo erat amet</p>
-                    
+
                                 </div>
                             </div>
                         </div>
@@ -89,7 +90,7 @@ function Facts() {
                                     <h1 className="display-1">04</h1>
                                     <h4 className="text-white mb-3">Interior Design</h4>
                                     <p className="text-white">Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit clita duo justo erat amet</p>
-                                    
+
                                 </div>
                             </div>
                         </div>
