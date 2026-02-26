@@ -89,7 +89,7 @@ function EditWorkers() {
           body: formData, // Pass the formData object as the body
         }
       );
-      // navigate("/EditWorkers");
+      navigate("/EditWorkers");
     } catch (error) {
       console.log("Error updating service:", error);
     }
